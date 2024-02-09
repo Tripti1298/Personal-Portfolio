@@ -1,0 +1,17 @@
+body{
+    background-image: url();
+    background-repeat: repeat-x ;
+    background-size:600px 200;
+    color: rgb(16, 165, 198);
+    text-align: center;
+    border-bottom: 60px solid rgb(180, 172, 54);
+    
+}
+.new {
+    text-decoration-color: rgb(161, 24, 24);
+    border: 20px solid rgb(211, 178, 59) ;
+    border-style: double solid rgb(67, 4, 4);
+    margin-left: 330px;
+    margin-right:330px;
+}
+

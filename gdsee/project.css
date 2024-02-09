@@ -1,0 +1,22 @@
+.heading{
+    text-align: center;
+    background-color: beige;
+    -webkit-text-fill-color: rgb(239,160,160);
+    font-size: larger;
+}
+.photo
+{
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+}
+div{
+    border: 1px solid gray;
+    padding: 1px;
+}
+.text p{
+    text-shadow: 1px  ;
+    font-size: larger;
+    -webkit-text-fill-color: rgb(57, 3, 59);
+    background-color: rgb(253, 240, 240) ;
+    
+}

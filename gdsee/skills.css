@@ -1,0 +1,70 @@
+body{
+    margin-left:auto !important;
+    text-align: center;
+    font-size: larger;
+    color: rgb(16, 165, 198);  
+    background-image: url(https://images.pexels.com/photos/2501965/pexels-photo-2501965.jpeg?auto=compress&cs=tinysrgb&w=1200);      
+    background-repeat: repeat-x;
+    
+    
+}
+.mask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:15;
+    min-width:5%;
+    background: #ffffff;
+    color: rgb(16, 165, 198);
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    -webkit-text-fill-color: rgb(25, 39, 125);
+    animation: typing 3s steps(6) alternate infinite,line 1s infinite ;
+}
+.skill{
+    position:relative ;
+    font-size:6vw;
+    color: #ff0101;
+    -webkit-text-stroke: 0.3vw #000000;
+}
+.skill::before
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color:#e509de ;
+    -webkit-text-stroke: 0vw #383d52; 
+    border-right:2px solid;
+    border-left:2px solid; ;
+    border-radius: 100%;
+    overflow:hidden;
+    animation:animate 6s linear infinite;
+}
+@keyframes animate  {
+    0%,10%,100%
+    {
+        width:0;
+    }
+    70%,90%
+    {
+        width:100%;
+    }
+}
+@keyframes typing{
+   to{
+    width:3%;
+    }
+}
+@keyframes line
+{
+    50%{
+        color: transparent;
+    }
+}
+h1{
+    text-align: center;
+}
