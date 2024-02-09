@@ -1,0 +1,39 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+.container{
+    width: 50%;    
+    margin: 20px auto;
+    padding: 75px ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+    background-color: bisque;
+    font-size: larger;
+}
+h2{
+    text-align: center;
+    color: rgb(72, 0, 116);
+}
+.credentials p{
+    margin-top: 30px;
+    margin:10px 0;
+    text-align: center;
+    font-size: larger;
+}
+a{
+    color:darkmagenta;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.all
+{
+    background-image: url(new.jpeg);
+    background-size: cover ;
+}
